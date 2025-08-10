@@ -75,7 +75,7 @@ To run this project on your local machine, follow these steps:
 
     *(You may need to create a `requirements.txt` file with the following content: `streamlit`, `pandas`, `scikit-learn`, `requests`)*
 
-3.  **Get a TMDB API Key:**
+3.  **Get a TMDB API Key: (for movie posters) **
 
       * Create an account on [The Movie Database (TMDB)](https://www.themoviedb.org/).
       * Go to your account settings, find the API section, and generate an API key.
@@ -91,10 +91,3 @@ To run this project on your local machine, follow these steps:
 
 5.  **Open your browser** and navigate to the local URL provided by Streamlit (usually `http://localhost:8501`).
 
-## 📁 File Descriptions
-
-  - **`M_R_S.ipynb`**: The Jupyter Notebook containing all the data preprocessing, feature engineering, and model building steps. This is where the `movie_list.pkl` and `similarity.pkl` files are generated.
-  - **`app.py`**: The main Python script that runs the Streamlit web application. It loads the saved models and handles the user interaction.
-  - **`movie_list.pkl`**: A pickled pandas DataFrame containing the movie ID and title for all the movies.
-  - **`similarity.pkl`**: A pickled file containing the cosine similarity matrix for all the movies.
-  - **`README.md`**: This file\!
