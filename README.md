@@ -1,2 +1,2 @@
-# Movie_Recommendation_System-Kaggle-dataset-
-Python based webapp that recommends movies based on the input search
+# movie-recommender-system-tmdb-dataset
+A content based movie recommender system using cosine similarity
