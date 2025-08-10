@@ -6,7 +6,7 @@ Of course\! Here is a well-structured and detailed README description for your G
 
 This project is a content-based movie recommender system that suggests movies similar to a user's choice. The application is built with Python, using a dataset from The Movie Database (TMDB). It leverages natural language processing techniques to find similarities between movies and presents the recommendations through an interactive web interface created with Streamlit.
 
-  \#\# 🌟 Features
+  ## 🌟 Features
 
   - **Interactive UI**: A simple and user-friendly web interface built with Streamlit.
   - **Content-Based Filtering**: Recommends movies based on their content similarity (genres, keywords, cast, and crew).
